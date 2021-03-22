@@ -1,5 +1,4 @@
-package HomeWork_2021._2021_1_21;
-import HomeWork_2021._2021_1_19.A;
+package HomeWork_2021._2021._1._2021_1_21;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
