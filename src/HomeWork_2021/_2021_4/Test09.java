@@ -20,7 +20,7 @@ public class Test09{
         System.out.println(sb.reverse());
     }
 
-    //末尾0的个数
+    //末尾0的个数：因为可以产生0的是偶数*5，所以记录每一数字中包含5的个数，比如10就有10和5
     public static void main2(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
