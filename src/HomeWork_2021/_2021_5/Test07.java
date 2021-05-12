@@ -103,8 +103,9 @@ public class Test07 {
                 }
             }
             //如果歌曲本身不构成一页，需要将头重置为1
-            if(num < 4)
+            if(num < 4){
                 top = 1;
+            }
             //输出四个歌曲的同时，要判断是否数值会超过num本身，因为num可以小于4
             for(int i = 0; i < 3 && i < num - 1; i++) {
                 System.out.print(top + i + " ");
